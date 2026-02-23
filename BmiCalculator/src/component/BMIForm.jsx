@@ -99,8 +99,7 @@ function BMIForm() {
           Calculate BMI
         </button>
       </form>
-
-      {result && <h3>{result}</h3>}
+{result && <h3 style={{ color: "black" }}>{result}</h3>}
 
       {image && (
         <img
@@ -137,6 +136,7 @@ const styles = {
     border: "none",
     cursor: "pointer"
   }
+  
 };
 
 export default BMIForm;
